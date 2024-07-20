@@ -1,0 +1,7 @@
+services:
+  fe:
+    build: .
+    ports:
+      - 3000:3000
+    environment:
+      - DYNAMIC_ENV_VAR=i changed this dynamic variable again
